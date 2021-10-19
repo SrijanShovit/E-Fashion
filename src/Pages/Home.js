@@ -1,14 +1,22 @@
-import React from 'react'
-import Header  from '../Components/Navbar'
+import React from "react";
+import Header from "../Components/Navbar";
+import ProductsScreen from "./ProductsScreen";
 
-import Footer from '../Components/Footer'
+import { Container } from "react-bootstrap";
+
+import Footer from "../Components/Footer";
 const Home = () => {
-    return (
-        <div>
-            <Header/>
-            <Footer/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <Header />
+      
+        <Container>
+          <ProductsScreen />
+        </Container>
+      
+      <Footer />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
