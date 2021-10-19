@@ -1,3 +1,15 @@
+@import url("http://fonts.googleapis.com/css?family=Poppins:wght@300;500;700&display=swap");
+
+/* custom colors */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+
 /* <-------------------------Header styling starts-------------------------------> */
 .logo{
   height:70px;
@@ -44,16 +56,46 @@ float: right;
 .featurecard1{
   box-shadow: 1px 1px 8px #949fdb;
 }
+.featurecard1:hover{
+  box-shadow: 1px 1px 8px #0e1b64;
+}
 .featurecard2{
   box-shadow: 1px 1px 8px #8f9e7e;
+}
+.featurecard2:hover{
+  box-shadow: 1px 1px 8px #697062;
 }
 .featurecard3{
   box-shadow: 1px 1px 8px #a59b7a;
 }
+.featurecard3:hover{
+  box-shadow: 1px 1px 8px #5c502a;
+}
 .featurecard4{
   box-shadow: 1px 1px 8px #bd81ae;
+}
+.featurecard4:hover{
+  box-shadow: 1px 1px 8px #492340;
+}
+
+.fetcard :hover{
+  cursor:pointer
 }
 
 .card-img-top{
   height: 200px;
+}
+
+.rotcard:hover{
+  transition: all 2s;
+  animation: rotatefont 2s infinite linear alternate;
+}
+
+@keyframes rotatefont{
+  0%{
+      transform: scale(0.8);
+  }
+  100%{
+      transform: scale(1);
+  }
 }
