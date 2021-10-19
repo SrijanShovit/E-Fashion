@@ -40,3 +40,20 @@ float: right;
 }
 
 /* <-------------------------Footer styling ends-------------------------------> */
+
+.featurecard1{
+  box-shadow: 1px 1px 8px #949fdb;
+}
+.featurecard2{
+  box-shadow: 1px 1px 8px #8f9e7e;
+}
+.featurecard3{
+  box-shadow: 1px 1px 8px #a59b7a;
+}
+.featurecard4{
+  box-shadow: 1px 1px 8px #bd81ae;
+}
+
+.card-img-top{
+  height: 200px;
+}
