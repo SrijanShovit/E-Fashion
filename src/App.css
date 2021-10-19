@@ -28,10 +28,7 @@
 }
 /* <-------------------------Header styling ends-------------------------------> */
 /* <-------------------------Footer styling starts-------------------------------> */
-.footer{
-    position: fixed; 
-    bottom:0%;
-}
+
 .footer  a{
   color: #fff !important; 
   text-decoration:none !important;
