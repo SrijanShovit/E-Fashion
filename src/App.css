@@ -28,12 +28,9 @@
 }
 /* <-------------------------Header styling ends-------------------------------> */
 /* <-------------------------Footer styling starts-------------------------------> */
-.footer{
-    position: fixed; 
-    bottom:0%;
-}
+
 .footer  a{
-  color: #fff !important; 
+  color: #fff !important;
   text-decoration:none !important;
 }
 .footer hr{
@@ -90,7 +87,13 @@ float: right;
   transition: all 2s;
   animation: rotatefont 2s infinite linear alternate;
 }
-
+/* Carousel buttons */
+.carousel-control-next-icon{
+  opacity: 0;
+}
+.carousel-control-prev-icon{
+  opacity: 0.3;
+}
 @keyframes rotatefont{
   0%{
       transform: scale(0.8);

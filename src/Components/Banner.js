@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider2 from '../Assets/slider2.jpg'
 import Slider1 from '../Assets/slider1.png'
+import './css/style.css'
 
 const Banner = () => {
     return (
