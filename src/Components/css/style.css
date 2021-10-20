@@ -1,0 +1,42 @@
+
+.close{
+  position: absolute;
+  top:2px;
+  right:2px;
+  text-decoration: none;
+}
+
+
+
+.ip{
+  display: block;
+  padding: 10px;
+  margin:10px auto;
+  border-radius: 20px;
+  border:1px solid white;
+  width: 75%;
+  outline: none;
+  transition: 1.5s;
+}
+.ip:hover{width: 100%;}
+.signup{
+  position:absolute;
+  right:20px;
+  top: 25px;
+  text-shadow: 0 2px 5px white;
+  z-index: 1;
+  background: inherit;
+  color: white !important;
+  margin-left: 2px;
+}
+.login{
+  position:absolute;
+  right:80px;
+  top: 25px;
+  text-shadow: 0 2px 5px white;
+  z-index: 1;
+  background: inherit;
+  color: white !important;
+  margin-right: 20px;
+
+}

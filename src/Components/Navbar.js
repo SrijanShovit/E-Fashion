@@ -2,11 +2,12 @@ import React from "react";
 import {  NavLink } from "react-router-dom";
 import {Container,Navbar,Nav} from "react-bootstrap";
 import logo from "../images/logo.jfif";
-
+import Popup1 from "./popuplogin"
+import Popup from "./popup"
 
 const Header = () => {
- 
- 
+
+
   return (
     <>
         <Navbar  bg="dark" variant="dark" expand="lg"   >
@@ -24,13 +25,11 @@ const Header = () => {
                     <NavLink className="navstyle" to="#"><div className="iconDiv"></div>Fashion Wear</NavLink>
                 </Nav>
                 <Nav>
-                    <NavLink className="navstyle" to="#">Login</NavLink>
-                    <NavLink className="navstyle" to="#">
-                        Sign-up
-                    </NavLink>
+                    <Popup1 />
+                    <Popup />
                 </Nav>
             </Navbar.Collapse>
-            
+
         </Container>
   </Navbar>
 
