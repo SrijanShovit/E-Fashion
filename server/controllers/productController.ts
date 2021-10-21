@@ -13,9 +13,12 @@ export const getProducts = asyncHandler(
 
 export const addProducts = asyncHandler(
   async (req: Request, res: Response, next: NextFunction) => {
-    db.query(`INSERT INTO product SET ?`, req.body, (err, result) => {
-      if (err) throw err;
-      res.json({ status: 'pass', data: result });
+    let query: string = `INSERT INTO product SET ?`;
+    req.body.forEach((prod: any) => {
+      db.query(query, prod, (err, result) => {
+        if (err) throw err;
+      });
     });
+    res.json({ status: 'pass' });
   }
 );
