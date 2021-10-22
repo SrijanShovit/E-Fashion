@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Flying Machine Mens Casual Shirt",
+    "brand": "Flying Machine",
+    "price": 18,
+    "imageUrl": "",
+    "description": "T-shirt for men",
+    "rating": 4.2
+  },
+  {
+    "name": "Winter Trouser By Jockey",
+    "brand": "Jockey",
+    "price": 20,
+    "imageUrl": "",
+    "description": "Trousers for men",
+    "rating": 3.4
+  },
+  {
+    "name": "Black Leather Jacket By Umbro",
+    "brand": "Umbro",
+    "price": 42,
+    "imageUrl": "",
+    "description": "Leather jacket for men and women",
+    "rating": 4.5
+  },
+  {
+    "name": "Levi's Slim Fit Jeans",
+    "brand": "Levi's",
+    "price": 24,
+    "imageUrl": "",
+    "description": "Denim jeans for men and women",
+    "rating": 2.1
+  },
+  {
+    "name": "Black Ruffle Saree",
+    "brand": "Raymond",
+    "price": 30,
+    "imageUrl": "",
+    "description": "Designer saree for women",
+    "rating": 3.8
+  },
+  {
+    "name": "Woodland Hiking Boots",
+    "brand": "Woodland",
+    "price": 56,
+    "imageUrl": "",
+    "description": "Hiking shoes for men and women",
+    "rating": 4.0
+  }
+]
