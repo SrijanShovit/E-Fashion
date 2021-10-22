@@ -21,5 +21,7 @@ db.connect((error) => {
 });
 
 const productRoute = require('./routes/productRoute');
+const authRoute = require('./routes/authRoute');
 
 app.use('/products', productRoute);
+app.use('/auth', authRoute);
