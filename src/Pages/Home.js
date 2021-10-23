@@ -2,7 +2,7 @@ import React from 'react'
 import Header  from '../Components/Navbar'
 import Banner  from '../Components/Banner'
 import Cards  from '../Components/FeatureCards'
-import ProductsScreen from './ProductsScreen'
+import ProductsScreen from './ProductScreen'
 
 import Footer from '../Components/Footer'
 import { Container } from 'react-bootstrap'
@@ -13,7 +13,7 @@ const Home = () => {
             <Banner/>
             <Cards/>
             
-                <ProductsScreen/>
+            <ProductsScreen/>
             
             
             <Footer/>
@@ -21,4 +21,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;
