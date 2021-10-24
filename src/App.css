@@ -49,6 +49,7 @@ float: right;
 }
 
 /* <-------------------------Footer styling ends-------------------------------> */
+/* <-------------------------Feature Cards styling starts-------------------------------> */
 
 .featurecard1{
   box-shadow: 1px 1px 8px #949fdb;
@@ -102,3 +103,4 @@ float: right;
       transform: scale(1);
   }
 }
+/* <-------------------------Feature Cards styling ends-------------------------------> */
