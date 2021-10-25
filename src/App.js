@@ -5,6 +5,7 @@ import {
   Switch,
   Route,
 } from 'react-router-dom'
+import { City_Local } from './Pages/City Local'
 const App = () => {
  
   return (
@@ -12,6 +13,7 @@ const App = () => {
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/local" component={City_Local} />
         
       </Switch>
     </Router>

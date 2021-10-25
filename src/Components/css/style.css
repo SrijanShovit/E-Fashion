@@ -40,11 +40,44 @@
   margin-right: 20px;
 
 }
-.view{
-  margin-left: 80%;
-  
+.button-view{
+  margin-left: 60%;
 }
-.rating span {
-  margin: 0.1rem;
-  
+
+/* City Local Location Navbar Start */
+.navbar-location
+{
+    padding-left: 24em;
+    margin-top: -2em;
+    background-color: #343A40;
 }
+
+.location
+{
+    margin-top: -2px;
+}
+
+.input
+{
+    height:2.3em;
+    width: 23em;
+}
+
+.search
+{
+    margin-top: -9px;
+}
+
+@media (max-width:700px) {
+  .navbar-location
+  {
+    margin-left: -23em;
+  }
+
+  .input
+  {
+    width: 20em;
+  }
+}
+
+/* City Local Navbar Location End */
