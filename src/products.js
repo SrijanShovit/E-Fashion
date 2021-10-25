@@ -1,7 +1,7 @@
 const products = [
     {
         _id:'1',
-        name: 'img-1',
+        name: 'Product Name',
         image: '/Images/fashion/img-1.webp',
         descripation: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters',
         brand: 'cipla',
@@ -13,7 +13,7 @@ const products = [
     },
     {
         _id:'2',
-        name: 'img-2',
+        name: 'Product Name',
         image: '/images/fashion//img-2.webp',
         descripation: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters',
         brand: 'cipla',
@@ -25,7 +25,7 @@ const products = [
     },
     {
         _id:'3',
-        name: 'img-3',
+        name: 'Product Name',
         image: '/images/fashion//img-3.webp',
         descripation: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters',
         brand: 'cipla',
@@ -37,7 +37,7 @@ const products = [
     },
     {
         _id:'4',
-        name: 'img-4',
+        name: 'Product Name',
         image: '/images/fashion//img-4.webp',
         descripation: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters',
         brand: 'cipla',
@@ -49,14 +49,14 @@ const products = [
     },
     {
         _id:'5',
-        name: 'img-5',
+        name: 'Product Name',
         image: '/images/fashion//img-5.webp',
         descripation: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters',
         brand: 'cipla',
         category: 'Nutriation',
         price: 99,
         countInStock:3,
-        rating:2.5,
+        rating:4.5,
         numReviews:4,
     },
    
