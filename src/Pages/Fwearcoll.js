@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
-import ProductsScreen from "./ProductScreen";
+
+
+
 import Banner from '../Components/Banner'
-import Slider2 from '../Assets/slider2.jpg'
-import Slider1 from '../Assets/slider1.png'
+
 
 import Navbar from '../Components/Navbar'
 
@@ -13,7 +12,7 @@ import Product from '../Components/Product';
 import Footer from "../Components/Footer";
 
 const Fwearcoll = () => {
-    const [show, setShow] = useState(false)
+ 
     return (
         <>
             <Navbar />

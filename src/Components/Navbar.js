@@ -22,7 +22,7 @@ const Header = () => {
                     <NavLink className="navstyle" to="/"><div className="iconDiv"></div>Home</NavLink>
                     <NavLink className="navstyle"  to="#"><div className="iconDiv"></div>City Fashion Store</NavLink >
                     <NavLink className="navstyle" to="#"><div className="iconDiv"></div>City Beauty Store</NavLink>
-                    <NavLink className="navstyle" to="#"><div className="iconDiv"></div>Signature Handicraft</NavLink>
+                    <NavLink className="navstyle" to="/sighandicraft"><div className="iconDiv"></div>Signature Handicraft</NavLink>
                     <NavLink className="navstyle" to="/fwearcollection"><div className="iconDiv"></div>Fashion Wear</NavLink>
                 </Nav>
                 <Nav>

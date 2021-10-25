@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './Pages/Home'
 import Fwearcoll from './Pages/Fwearcoll'
+import Handicraft from "./Pages/Handicraft";
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,6 +15,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/fwearcollection" component={Fwearcoll} />
+        <Route path="/sighandicraft" component={Handicraft} />
         
       </Switch>
     </Router>

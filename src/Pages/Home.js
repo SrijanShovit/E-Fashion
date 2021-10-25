@@ -4,6 +4,7 @@ import Banner from "../Components/Banner";
 import Cards from "../Components/FeatureCards";
 import ProductsScreen from "./ProductScreen";
 
+
 import Footer from "../Components/Footer";
 import { Container } from "react-bootstrap";
 const Home = () => {
