@@ -5,6 +5,7 @@ import logo from "../images/logo.jfif";
 import Popup1 from "./popuplogin"
 import Popup from "./popup"
 
+
 const Header = () => {
 
 
@@ -22,7 +23,7 @@ const Header = () => {
                     <NavLink className="navstyle"  to="#"><div className="iconDiv"></div>City Fashion Store</NavLink >
                     <NavLink className="navstyle" to="#"><div className="iconDiv"></div>City Beauty Store</NavLink>
                     <NavLink className="navstyle" to="#"><div className="iconDiv"></div>Signature Handicraft</NavLink>
-                    <NavLink className="navstyle" to="#"><div className="iconDiv"></div>Fashion Wear</NavLink>
+                    <NavLink className="navstyle" to="/fwearcollection"><div className="iconDiv"></div>Fashion Wear</NavLink>
                 </Nav>
                 <Nav>
                     <Popup1 />

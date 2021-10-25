@@ -104,3 +104,30 @@ float: right;
   }
 }
 /* <-------------------------Feature Cards styling ends-------------------------------> */
+
+.navbar-bg{
+  background-color: var(--bgcolor);
+  padding: 2rem 0;
+  z-index: 99;         /*z-index to prevent flow of data on navbar*/
+  position: relative;
+}
+
+
+
+.navbar li{
+  /* to give space between items  */
+  padding: 0 2rem;
+}
+
+.navbar li a{
+  font-size: 1.4 rem;
+  font-weight:inherit;
+  
+}
+.navbar li a:hover{
+  color: rgb(21, 195, 226)!important;
+  text-shadow: 0 0.2rem 0.3rem rgba(207, 203, 236, 0.5);
+  border-radius: 20px;
+}
+
+
