@@ -7,7 +7,7 @@ import Product from '../Components/Product';
 const ProductsScreen = () => {
     return(
         <>
-            <h1>Handicraft</h1>
+            <h1 className="product-heading">Handicraft</h1>
             <Row>
                 {products.map (product =>(
                     <Col sm={12} md={6} lg={4} xl={2}>
@@ -17,7 +17,7 @@ const ProductsScreen = () => {
                 ))}
             </Row>
             
-            <h1>Trending Wear</h1>
+            <h1 className="product-heading">Trending Wear</h1>
             <Row>
                 {products.map (product =>(
                     <Col sm={12} md={6} lg={4} xl={2}>
@@ -27,7 +27,7 @@ const ProductsScreen = () => {
                 ))}
             </Row>
             
-            <h1>Local Store</h1>
+            <h1 className="product-heading">Local Store</h1>
             <Row>
                 {products.map (product =>(
                     <Col sm={12} md={6} lg={4} xl={2}>
