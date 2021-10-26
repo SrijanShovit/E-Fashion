@@ -4,7 +4,6 @@ import './css/style.css'
 
 
 
-
 const Rating = ({ value, text ,color}) => {
     return (
         <div className="rating">
