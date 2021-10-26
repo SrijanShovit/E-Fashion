@@ -5,7 +5,7 @@ import Product from '../Components/Product';
 import '../Components/css/style.css';
 
 import { Link } from 'react-router-dom'
-import { Card } from 'react-bootstrap'
+
 
 
 
