@@ -1,18 +1,21 @@
 import React from 'react';
-import { Row , Col,Button} from 'react-bootstrap';
+import { Row , Col,Container} from 'react-bootstrap';
+import '../Components/css/style.css';
 import products from '../products';
 import Product from '../Components/Product';
-import '../Components/css/style.css';
-import { Link } from 'react-router-dom';
 
 
 
-
-
-const ProductsScreen = () => {
+const LocalStore = () => {
+    const headingStyle = {
+        
+        textAlign: 'center'
+    }
     return(
         <>
-            <h3>Handicraft</h3>
+            
+            <Container>
+            <h3 style={headingStyle}>LocalStore</h3>
             <Row>
                 {products.map (product =>(
                     <Col sm={12} md={6} lg={4} xl={2}>
@@ -21,11 +24,6 @@ const ProductsScreen = () => {
 
                 ))}
             </Row>
-            <Link to="/HandiCraft">
-                <Button varient="secoundary" className="view">View All</Button>
-            </Link>
-            
-            <h3>Trending Wear</h3>
             <Row>
                 {products.map (product =>(
                     <Col sm={12} md={6} lg={4} xl={2}>
@@ -34,11 +32,6 @@ const ProductsScreen = () => {
 
                 ))}
             </Row>
-            <Link to="/TrendingWear">
-                <Button varient="secoundary" className="view">View All</Button>
-            </Link>
-            
-            <h3>Local Store</h3>
             <Row>
                 {products.map (product =>(
                     <Col sm={12} md={6} lg={4} xl={2}>
@@ -47,19 +40,12 @@ const ProductsScreen = () => {
 
                 ))}
             </Row>
-           
-                <Link to="/LocalStore">
-                    <Button varient="secoundary" className="view">View All</Button>
 
-                </Link>
-                
+            </Container>
             
-            
-            
-            
-        
+
         </>
     )
 }
 
-export default ProductsScreen;
+export default LocalStore;

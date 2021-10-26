@@ -6,6 +6,7 @@ import ProductsScreen from "./ProductScreen";
 
 import Footer from "../Components/Footer";
 import { Container } from "react-bootstrap";
+
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
         <ProductsScreen />
       </Container>
       <Footer />
+      
     </div>
   );
 };
