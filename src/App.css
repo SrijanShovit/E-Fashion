@@ -79,6 +79,14 @@ float: right;
   cursor:pointer
 }
 
+.product-heading{
+  text-align: center;
+}
+
+.row{
+  justify-content: center;
+}
+
 .card-img-top{
   height: 200px;
 }
