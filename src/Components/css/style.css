@@ -43,3 +43,57 @@
 .button-view{
   margin-left: 60%;
 }
+
+/* Fashion Store CSS Start */
+/* Fashion Store Location Navbar Start */
+.navbar-location
+{
+    padding-left: 24em;
+    margin-top: -2em;
+    background-color: #343A40;
+    margin-bottom: 2em;
+}
+
+.location
+{
+    margin-top: -2px;
+}
+
+.input
+{
+    height:2.3em;
+    width: 23em;
+}
+
+.search
+{
+    margin-top: -9px;
+}
+
+@media (max-width:700px) {
+  .navbar-location
+  {
+    margin-left: -23em;
+  }
+
+  .input
+  {
+    width: 20em;
+  }
+}
+
+/* Fashion Store Navbar Location End */
+/* Fashion Store Card Start */
+.fashionstorebutton
+{
+  margin-top: -3.8em;
+}
+
+@media (max-width:700px) {
+.fashionstorebutton
+{
+  margin-top: 10px;
+}
+}
+/* Fashion Store Card End */
+/* Fashion Store End */

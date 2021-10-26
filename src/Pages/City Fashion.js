@@ -1,17 +1,17 @@
 import React from 'react';
+import FashionStoreCard from '../Components/FashionStoreCard';
 import Footer from '../Components/Footer';
-import Header from '../Components/Navbar';
+import { NavbarFashionStore } from '../Components/NavbarFashionStore';
 import { NavbarLocation } from '../Components/NavbarLocation';
-import ProductsScreen from './ProductScreen';
 
 
 export const City_Fashion = () => {
     return (
         <>
-        <Header/>
-        <NavbarLocation/>
-        <ProductsScreen/> For demo use only
-        <Footer/>
+            <NavbarFashionStore/>
+            <NavbarLocation/>
+            <FashionStoreCard/>
+            <Footer/>
         </>
     )
 }
