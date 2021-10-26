@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 const ProductsScreen = () => {
     return(
         <>
-            <h3>Handicraft</h3>
+            <h1>Handicraft</h1>
             <Row>
                 {products.map (product =>(
                     <Col sm={12} md={6} lg={4} xl={2}>
@@ -25,7 +25,7 @@ const ProductsScreen = () => {
                 <Button varient="secoundary" className="view">View All</Button>
             </Link>
             
-            <h3>Trending Wear</h3>
+            <h1>Trending Wear</h1>
             <Row>
                 {products.map (product =>(
                     <Col sm={12} md={6} lg={4} xl={2}>
@@ -38,7 +38,7 @@ const ProductsScreen = () => {
                 <Button varient="secoundary" className="view">View All</Button>
             </Link>
             
-            <h3>Local Store</h3>
+            <h1>Local Store</h1>
             <Row>
                 {products.map (product =>(
                     <Col sm={12} md={6} lg={4} xl={2}>
