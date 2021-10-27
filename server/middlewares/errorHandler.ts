@@ -23,6 +23,10 @@ export const errorHandler = (
   }
   //console.log(err);
   res.status(error.statusCode).json({
+    status: 'fail',
     message: error.message || err.message,
+    data: null,
   });
+
+  return next();
 };
