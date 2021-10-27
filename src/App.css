@@ -169,8 +169,25 @@ float: right;
 }
 
 /* <-------------------------Handicraft page styling starts-------------------------------> */
+.collection-heading{
+  margin: 2rem auto !important;
+}
+
+
+.collection-container{
+  margin: auto !important;
+}
+
 .container-section{
   display: flex;
+  margin-top: 2rem;
+}
+
+
+@media (max-width: 900px){
+  .container-section {
+      flex-direction: column;
+  }
 }
 
 @media (min-width: 576px){
@@ -181,10 +198,6 @@ float: right;
 
 .card{
   height: 96.3%;
-}
-
-.section2-card{
-  background-color: #00000017 !important;
 }
 
 /* <-------------------------Handicraft page styling Ends-------------------------------> */
