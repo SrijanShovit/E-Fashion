@@ -157,19 +157,11 @@ const Handicraft = () => {
                 </div>
             </div>
 
-            <div className="container-fluid">
-                <div className="row mt-5">
+            <div className="container-section">
 
+                <div className="section1-3">
                     <div className="card-group">
                         <div className="card my-3 mx-3">
-                            <img src={Fwear} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div className="card mx-3">
                             <img src={Fwear} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
@@ -187,8 +179,19 @@ const Handicraft = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
 
+                <div className="section2">
+                        <div className="card my-3 mx-3 section2-card">
+                            <img src={Fwear} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className="card-title">Card title</h5>
+                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                </div>
+
+                <div className="section1-3">
                     <div className="card-group">
                         <div className="card my-3 mx-3">
                             <img src={Fwear} className="card-img-top" alt="..." />
@@ -198,14 +201,7 @@ const Handicraft = () => {
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
-                        <div className="card mx-3">
-                            <img src={Fwear} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
+
                         <div className="card my-3 mx-3 specialhandcard">
                             <img src={Fwear} className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -216,6 +212,7 @@ const Handicraft = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
 
 

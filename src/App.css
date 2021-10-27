@@ -168,4 +168,23 @@ float: right;
   box-shadow: 0 0.3rem 0.5rem rgb(179, 203, 235);
 }
 
+/* <-------------------------Handicraft page styling starts-------------------------------> */
+.container-section{
+  display: flex;
+}
 
+@media (min-width: 576px){
+  .card-group {
+      flex-direction: column !important;
+  }
+}
+
+.card{
+  height: 96.3%;
+}
+
+.section2-card{
+  background-color: #00000017 !important;
+}
+
+/* <-------------------------Handicraft page styling Ends-------------------------------> */
