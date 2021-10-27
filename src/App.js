@@ -7,6 +7,7 @@ import {
   Switch,
   Route,
 } from 'react-router-dom'
+import { City_Fashion } from './Pages/City Fashion'
 import LocalStore from './Pages/LocalStore'
 const App = () => {
  
@@ -15,10 +16,10 @@ const App = () => {
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
+        <Route path="/fashion" component={City_Fashion} />
         <Route path = "/HandiCraft" component={HandiCraft} />
         <Route path = "/TrendingWear" component={TrendingWear} />
         <Route path = "/LocalStore" component={LocalStore} />
-        
       </Switch>
     </Router>
     </>

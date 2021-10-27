@@ -19,7 +19,7 @@ const Footer = () => {
               <h6 className="text-uppercase font-weight-bold text-center">Features</h6>
               <hr className="bg-success mb-1 mt-0 d-inline-block mx-auto" />
               <ul >
-                <li className="my-2"><a href="/">Fashion Product</a></li>
+                <li className="my-2"><a href="/fashion">Fashion Product</a></li>
                 <li className="my-2"><a href="/">Beauty Product</a></li>
                 <li className="my-2"> <a href="/">Handicraft Product</a></li>
                 <li className="my-2"> <a href="/">Fashion Wear</a></li>
@@ -29,7 +29,7 @@ const Footer = () => {
               <h6 className="text-uppercase font-weight-bold text-center">Useful links</h6>
               <hr className="bg-success mb-1 mt-0 d-inline-block mx-auto"  />
               <ul>
-                <li className="my-2"><a href="/">City Fashion Store</a></li>
+                <li className="my-2"><a href="/fashion">City Fashion Store</a></li>
                 <li className="my-2"><a href="/">City Beauty Store</a></li>
                 <li className="my-2"><a href="/">Signature Handicraft</a></li>
                 
@@ -41,7 +41,7 @@ const Footer = () => {
                 <ul>
                 <li className="my-2"> <i className="fa fa-home  mr-3" aria-hidden="true" /> Delhi,India</li>
                 <li className="my-2"><i className="fa fa-envelope" aria-hidden="true" /> helthcare@gmail.com</li>
-                <li className="my-2"><i className="fa fa-phone" aria-hidden="true" /> + 01 234 567 88</li>
+                <li className="my-2"><i className="fa fa-phone" aria-hidden="true"/>  + 01 234 567 88 </li>
               </ul>
           </Col>
     
