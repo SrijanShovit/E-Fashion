@@ -5,8 +5,6 @@ import Cards  from '../Components/FeatureCards';
 import ProductsScreen from './ProductScreen';
 import Footer from '../Components/Footer';
 import { Container } from 'react-bootstrap';
-import Footer from "../Components/Footer";
-import { Container } from "react-bootstrap";
 
 const Home = () => {
   return (
