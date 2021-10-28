@@ -1,6 +1,5 @@
 // checks if all fields(array) are present in a tabel(as column names) and returns wrong fields message(string)
 
-import { asyncHandler } from '../middlewares/asyncHandler';
 import { executeSql } from './executeSql';
 
 export const checkTableColumns = async (

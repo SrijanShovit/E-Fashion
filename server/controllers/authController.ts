@@ -4,6 +4,7 @@ import { checkFields } from '../helpers/checkFields';
 import { AppError } from '../utils/error';
 import { executeSql } from '../helpers/executeSql';
 import { checkTableColumns } from '../helpers/checkTableColumns';
+import { getHash, matchPassword } from '../helpers/hashing';
 
 export const signup = asyncHandler(
   async (req: Request, res: Response, next: NextFunction) => {
@@ -15,6 +16,7 @@ export const signup = asyncHandler(
       return next(new AppError(message));
     }
 
+    // check if fields are present in body and return message
     message = checkFields({ ...req.body }, ['name', 'email', 'password']);
     if (message.length > 0) {
       return next(new AppError(message));
@@ -30,9 +32,11 @@ export const signup = asyncHandler(
       );
     }
 
+    // hash password
+    req.body.password = await getHash(req.body.password);
     query = `INSERT INTO users SET ?`;
-    user = await executeSql(query, req.body);
-    console.log(user);
+    await executeSql(query, req.body);
+
     res.json({
       status: 'pass',
       message: 'Registered successfully.',
@@ -49,13 +53,13 @@ export const login = asyncHandler(
       return next(new AppError(message));
     }
 
-    let query: string = `SELECT * FROM users WHERE email=? AND password=?`;
-    let user: any = await executeSql(query, [
-      req.body.email,
-      req.body.password,
-    ]);
+    let query: string = `SELECT * FROM users WHERE email=?`;
+    let user: any = await executeSql(query, [req.body.email]);
 
-    if (user.length == 0) {
+    if (
+      user.length == 0 ||
+      !(await matchPassword(req.body.password, user[0].password))
+    ) {
       return next(new AppError(`Wrong credentials.`));
     }
     user[0].password = undefined;
