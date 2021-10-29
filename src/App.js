@@ -22,7 +22,7 @@ const App = () => {
 
         <Route path="/fwearcollection" component={Fwearcoll} />
       
-        <Route path = "/HandiCraft" component={Handicraft} />
+        <Route path = "/sighandicraft" component={Handicraft} />
         
 
         <Route path="/fashion" component={City_Fashion} />
