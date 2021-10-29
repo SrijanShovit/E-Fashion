@@ -21,7 +21,8 @@ const App = () => {
         <Route exact path="/" component={Home} />
 
         <Route path="/fwearcollection" component={Fwearcoll} />
-        <Route path="/sighandicraft" component={Handicraft} />
+      
+        <Route path = "/HandiCraft" component={Handicraft} />
         
 
         <Route path="/fashion" component={City_Fashion} />
