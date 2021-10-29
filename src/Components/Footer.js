@@ -5,10 +5,10 @@ import { FaFacebook,FaLinkedin,FaInstagramSquare,FaTwitterSquare } from "react-i
 const Footer = () => {
     return (
     <>
-      <div className="p-4 w3-animate-zoom bg-dark text-light footer"  fluid="lg" >
+      <div className="p-4 w3-animate-zoom bg-dark text-light footer mt-5"  fluid="lg" >
         <Row>
           <Col sm>
-              <h6 className="text-uppercase font-weight-bold text-center">About</h6>
+              <h6 className="text-uppercase font-weight-bold text-center" style={{color: 'white'}}>About</h6>
               <hr className="bg-success mb-1 mt-0 d-inline-block mx-auto"  />
               <p className="mt-2">AAKANKSHA is an MSME consumer service E-commerce company started with the intention of making
                 people's life more comfortable. We provide a door-to-door delivery service facility .We provide a wide range
@@ -16,7 +16,7 @@ const Footer = () => {
                
           </Col>
           <Col sm>
-              <h6 className="text-uppercase font-weight-bold text-center">Features</h6>
+              <h6 className="text-uppercase font-weight-bold text-center" style={{color: 'white'}}>Features</h6>
               <hr className="bg-success mb-1 mt-0 d-inline-block mx-auto" />
               <ul >
                 <li className="my-2"><a href="/fashion">Fashion Product</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
               </ul>
           </Col>
           <Col sm>
-              <h6 className="text-uppercase font-weight-bold text-center">Useful links</h6>
+              <h6 className="text-uppercase font-weight-bold text-center" style={{color: 'white'}}>Useful links</h6>
               <hr className="bg-success mb-1 mt-0 d-inline-block mx-auto"  />
               <ul>
                 <li className="my-2"><a href="/fashion">City Fashion Store</a></li>
@@ -36,7 +36,7 @@ const Footer = () => {
               </ul>
           </Col>
           <Col sm>
-          <h6 className="text-uppercase font-weight-bold text-center">Contact</h6>
+          <h6 className="text-uppercase font-weight-bold text-center" style={{color: 'white'}}>Contact</h6>
                 <hr className="bg-success mb-1 mt-0 d-inline-block mx-auto"  />
                 <ul>
                 <li className="my-2"> <i className="fa fa-home  mr-3" aria-hidden="true" /> Delhi,India</li>
