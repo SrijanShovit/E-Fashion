@@ -12,6 +12,7 @@ app.use(express.static('public'));
 
 // database connection
 import { db } from './config/db';
+import { errorHandler } from './middlewares/errorHandler';
 db.connect((error) => {
   if (error) throw error;
   app.listen(process.env.PORT, () => {
@@ -25,3 +26,5 @@ const authRoute = require('./routes/authRoute');
 
 app.use('/products', productRoute);
 app.use('/auth', authRoute);
+
+app.use(errorHandler);

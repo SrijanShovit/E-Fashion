@@ -103,6 +103,7 @@ float: right;
       transform: scale(1);
   }
 }
+
 /* <-------------------------Feature Cards styling ends-------------------------------> */
 
 .navbar-bg{
@@ -167,5 +168,7 @@ float: right;
 .specialhandcard{
   box-shadow: 0 0.3rem 0.5rem rgb(179, 203, 235);
 }
+
+
 
 
