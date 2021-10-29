@@ -1,7 +1,10 @@
 import React from 'react'
 import Home from './Pages/Home'
-import HandiCraft from './Pages/HandiCraft'
 import TrendingWear from './Pages/TrendingWear'
+
+import Fwearcoll from './Pages/Fwearcoll'
+import Handicraft from "./Pages/Handicraft";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,10 +19,17 @@ const App = () => {
     <Router>
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/Fashion" component={City_Fashion} />
-        <Route path = "/HandiCraft" component={HandiCraft} />
+
+        <Route path="/fwearcollection" component={Fwearcoll} />
+      
+        <Route path = "/sighandicraft" component={Handicraft} />
+        
+
+        <Route path="/fashion" component={City_Fashion} />
+        
         <Route path = "/TrendingWear" component={TrendingWear} />
         <Route path = "/LocalStore" component={LocalStore} />
+
       </Switch>
     </Router>
     </>
