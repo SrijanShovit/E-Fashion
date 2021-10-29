@@ -104,3 +104,12 @@ float: right;
   }
 }
 /* <-------------------------Feature Cards styling ends-------------------------------> */
+/* featureImage */
+.featureImage{
+  width:30%;
+  height: 100px;
+}
+
+.hr-height{
+height:5px !important;
+}
