@@ -19,10 +19,10 @@ const FashionStoreCard = () => {
                                 <br/>
                                 Store Timings: 9:00 A.M. - 8:00 P.M.
                             </p>
-                            <a type="button" className="btn btn-success btn-sm" href='/' target='_blank'>Go To Location</a>
+                            <a type='button' className="location-btn-1" href='/' target='_blank'>GO TO LOCATION</a>
                             <div class=" d-md-flex justify-content-md-end">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-warning btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button type="button" class="btn btn-info btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                         See Products
                                     </button>
                                     <ul class="dropdown-menu">
@@ -45,7 +45,7 @@ const FashionStoreCard = () => {
                                 <br/>
                                 Store Timings: 10:00 A.M. - 8:00 P.M.
                             </p>
-                            <a type="button" className="btn btn-success btn-sm" href='/' target='_blank'>Go To Location</a>
+                            <a type="button" className="location-btn-2" href='/' target='_blank'>Go To Location</a>
                             <div class=" d-md-flex justify-content-md-end">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-warning btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
@@ -71,10 +71,10 @@ const FashionStoreCard = () => {
                                 <br/>
                                 Store Timings: 9:00 A.M. - 7:00 P.M.
                             </p>
-                            <a type="button" className="btn btn-success btn-sm" href='/' target='_blank'>Go To Location</a>
+                            <a type="button" className="location-btn-3" href='/' target='_blank'>Go To Location</a>
                             <div class=" d-md-flex justify-content-md-end">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-warning btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button type="button" class="btn btn-success btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                         See Products
                                     </button>
                                     <ul class="dropdown-menu">
@@ -97,10 +97,10 @@ const FashionStoreCard = () => {
                                 <br/>
                                 Store Timings: 10:00 A.M. - 9:00 P.M.
                             </p>
-                            <a type="button" className="btn btn-success btn-sm" href='/' target='_blank'>Go To Location</a>
+                            <a type="button" className="location-btn-4" href='/' target='_blank'>Go To Location</a>
                             <div class=" d-md-flex justify-content-md-end">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-warning btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button type="button" class="btn btn-dark btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                         See Products
                                     </button>
                                     <ul class="dropdown-menu">

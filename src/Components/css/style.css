@@ -44,14 +44,12 @@
   margin-left: 60%;
 }
 
-/* Fashion Store CSS Start */
+/* <!----------------------------Fashion Store CSS Start----------------------------!> */
 /* Fashion Store Location Navbar Start */
 .navbar-location
 {
     padding-left: 24em;
-    margin-top: -2em;
-    background-color: #343A40;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .location
@@ -59,15 +57,21 @@
     margin-top: -2px;
 }
 
+.location-btn
+{
+  background-color: #D82578;
+}
+
 .input
 {
-    height:2.3em;
+    height:3.4em;
     width: 23em;
+    margin: 1em;
 }
 
 .search
 {
-    margin-top: -9px;
+    margin-top: -3px;
 }
 
 @media (max-width:700px) {
@@ -78,7 +82,17 @@
 
   .input
   {
-    width: 20em;
+    width: 17em;
+    margin-left: 0;
+  }
+  .search-btn
+  {
+    width: 1em;
+    height: 3.4em;
+  }
+  .search
+  {
+    margin-left: -8px;
   }
 }
 
@@ -86,7 +100,39 @@
 /* Fashion Store Card Start */
 .fashionstorebutton
 {
-  margin-top: -3.8em;
+  margin-top: -3.9em;
+}
+
+.location-btn-1, .location-btn-2, .location-btn-3,.location-btn-4
+{
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  height: 37px;
+  width: 13em;
+  text-align: center;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.location-btn-1
+{
+  background-color: #E9E0CE;
+}
+
+.location-btn-2
+{
+  background-color: #f3c0cc;
+}
+
+.location-btn-3
+{
+  background-color: #9cc0fa;
+}
+
+.location-btn-4
+{
+  background-color: #F4F1F3;
 }
 
 @media (max-width:700px) {
@@ -96,7 +142,7 @@
 }
 }
 /* Fashion Store Card End */
-/* Fashion Store End */
+/* <!----------------------------Fashion Store CSS End----------------------------!> */
 .view{
   margin-left: 80%;
 }
