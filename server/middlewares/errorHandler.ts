@@ -21,8 +21,12 @@ export const errorHandler = (
       error.message = error.message.replace('Validation failed: ', '');
     }
   }
-  //console.log(err);
+  // console.log(err);
   res.status(error.statusCode).json({
+    status: 'fail',
     message: error.message || err.message,
+    data: null,
   });
+
+  return next();
 };

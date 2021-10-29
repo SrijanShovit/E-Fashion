@@ -102,3 +102,12 @@ float: right;
       transform: scale(1);
   }
 }
+/* featureImage */
+.featureImage{
+  width:30%;
+  height: 100px;
+}
+
+.hr-height{
+height:5px !important;
+}
