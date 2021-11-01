@@ -11,11 +11,11 @@ const Handicraft = () => {
 
             {/* best selling products section */}
 
-            <div className="container m-3" align="center">
+            <div className="container collection-heading" align="center">
                 <h4>Best Selling Collection</h4>
             </div>
 
-            <div className="row container my-2">
+            <div className="row container my-2 collection-container">
                 <div className="col-12 col-lg-6" align="center">
                     <div className="card handcard1" style={{ "width": "20rem" }}>
                         <img src={Fwear} className="card-img-top" alt="..." />
@@ -38,6 +38,7 @@ const Handicraft = () => {
                     <div className="card handcard2" style={{ "width": "20rem" }}>
                         <img src={Fwear} className="card-img-top" alt="..." />
                         <div className="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio quia labore enim distinctio maiores doloribus quisquam commodi facere beatae?</p>
                             <div className="row">
                                 <div className="col-6">
                                     <button type="button" className="btn handicraft-btn btn-sm">Add to Cart</button>
@@ -51,11 +52,12 @@ const Handicraft = () => {
                 </div>
             </div>
 
-            <div className="row container my-2" >
+            <div className="row container my-2 collection-container" >
                 <div className="col-12 col-lg-6" align="center">
                     <div className="card" style={{ "width": "20rem" }}>
                         <img src={Fwear} className="card-img-top" alt="..." />
                         <div className="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio quia labore enim distinctio maiores doloribus quisquam commodi facere beatae?</p>
                             <div className="row">
                                 <div className="col-6">
                                     <button type="button" className="btn handicraft-btn btn-sm">Add to Cart</button>
@@ -71,6 +73,7 @@ const Handicraft = () => {
                     <div className="card" style={{ "width": "20rem" }}>
                         <img src={Fwear} className="card-img-top" alt="..." />
                         <div className="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio quia labore enim distinctio maiores doloribus quisquam commodi facere beatae?</p>
                             <div className="row">
                                 <div className="col-6">
                                     <button type="button" className="btn handicraft-btn btn-sm">Add to Cart</button>
@@ -84,11 +87,11 @@ const Handicraft = () => {
                 </div>
             </div>
 
-            <div className="container my-5" align="center">
+            <div className="container my-5" align="center" margin="1rem auto">
                 <h4>Artistic Collection</h4>
             </div>
 
-            <div className="row container my-2">
+            <div className="row container my-2 collection-container">
                 <div className="col-12 col-lg-6" align="center">
                     <div className="card handcard1" style={{ "width": "20rem" }}>
                         <img src={Fwear} className="card-img-top" alt="..." />
@@ -111,6 +114,7 @@ const Handicraft = () => {
                     <div className="card handcard2" style={{ "width": "20rem" }}>
                         <img src={Fwear} className="card-img-top" alt="..." />
                         <div className="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio quia labore enim distinctio maiores doloribus quisquam commodi facere beatae?</p>
                             <div className="row">
                                 <div className="col-6">
                                     <button type="button" className="btn handicraft-btn btn-sm">Add to Cart</button>
@@ -124,11 +128,12 @@ const Handicraft = () => {
                 </div>
             </div>
 
-            <div className="row container my-2" >
+            <div className="row container my-2 collection-container" >
                 <div className="col-12 col-lg-6" align="center">
                     <div className="card" style={{ "width": "20rem" }}>
                         <img src={Fwear} className="card-img-top" alt="..." />
                         <div className="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio quia labore enim distinctio maiores doloribus quisquam commodi facere beatae?</p>
                             <div className="row">
                                 <div className="col-6">
                                     <button type="button" className="btn handicraft-btn btn-sm">Add to Cart</button>
@@ -144,6 +149,7 @@ const Handicraft = () => {
                     <div className="card" style={{ "width": "20rem" }}>
                         <img src={Fwear} className="card-img-top" alt="..." />
                         <div className="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odio quia labore enim distinctio maiores doloribus quisquam commodi facere beatae?</p>
                             <div className="row">
                                 <div className="col-6">
                                     <button type="button" className="btn handicraft-btn btn-sm">Add to Cart</button>
@@ -157,19 +163,11 @@ const Handicraft = () => {
                 </div>
             </div>
 
-            <div className="container-fluid">
-                <div className="row mt-5">
+            <div className="container-section">
 
+                <div className="section1-3">
                     <div className="card-group">
                         <div className="card my-3 mx-3">
-                            <img src={Fwear} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                        <div className="card mx-3">
                             <img src={Fwear} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Card title</h5>
@@ -187,8 +185,19 @@ const Handicraft = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row">
 
+                <div className="section2">
+                    <div className="card my-3 mx-3 section2-card">
+                        <img src={Fwear} className="card-img-top" alt="..." />
+                        <div className="card-body">
+                            <h5 className="card-title">Card title</h5>
+                            <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="section1-3">
                     <div className="card-group">
                         <div className="card my-3 mx-3">
                             <img src={Fwear} className="card-img-top" alt="..." />
@@ -198,14 +207,7 @@ const Handicraft = () => {
                                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                             </div>
                         </div>
-                        <div className="card mx-3">
-                            <img src={Fwear} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
+
                         <div className="card my-3 mx-3 specialhandcard">
                             <img src={Fwear} className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -216,6 +218,7 @@ const Handicraft = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
 
 
