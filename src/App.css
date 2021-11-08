@@ -174,36 +174,6 @@ float: right;
   box-shadow: 0 0.3rem 0.5rem rgb(179, 203, 235);
 }
 
-/* <-------------------------Handicraft page styling starts-------------------------------> */
-.collection-heading{
-  margin: 2rem auto !important;
-}
 
 
-.collection-container{
-  margin: auto !important;
-}
 
-.container-section{
-  display: flex;
-  margin-top: 2rem;
-}
-
-
-@media (max-width: 900px){
-  .container-section {
-      flex-direction: column;
-  }
-}
-
-@media (min-width: 576px){
-  .card-group {
-      flex-direction: column !important;
-  }
-}
-
-.card{
-  height: 96.3%;
-}
-
-/* <-------------------------Handicraft page styling Ends-------------------------------> */
