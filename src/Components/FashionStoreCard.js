@@ -13,7 +13,7 @@ const FashionStoreCard = () => {
                     <div className="card fetcard featurecard1">
                         <img src={Men} className="card-img-top rotcard" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title">Men Wear Store</h5>
+                            <h5 className="card-title">GUPTA CLOTH STORE</h5>
                             <p className="card-text">
                                 In this store, coustmer can purchase all type of men clothes.
                                 <br/>
@@ -22,13 +22,14 @@ const FashionStoreCard = () => {
                             <a type='button' className="location-btn-1" href='/' target='_blank'>GO TO LOCATION</a>
                             <div class=" d-md-flex justify-content-md-end">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-info btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button type="button" class="btn btn-success btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                         See Products
                                     </button>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Sweatshirt</a></li>
-                                        <li><a class="dropdown-item" href="#">T-Shirt</a></li>
-                                        <li><a class="dropdown-item" href="#">Jeans</a></li>
+                                        <li><a class="dropdown-item" href="/MenWear">MEN WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/WomenWear">WOMEN WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/KidsWear">KIDS WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/PartyWear">PARTY WEAR</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -39,7 +40,7 @@ const FashionStoreCard = () => {
                     <div className="card fetcard featurecard2">
                         <img src={Women} className="card-img-top rotcard" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title">Women Wear Store</h5>
+                            <h5 className="card-title">KHURANA CLOTH HOUSE</h5>
                             <p className="card-text">
                                 In this store, coustmer can purchase all type of women clothes.
                                 <br/>
@@ -48,13 +49,14 @@ const FashionStoreCard = () => {
                             <a type="button" className="location-btn-2" href='/' target='_blank'>Go To Location</a>
                             <div class=" d-md-flex justify-content-md-end">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-warning btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button type="button" class="btn btn-success btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                         See Products
                                     </button>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Long Dress</a></li>
-                                        <li><a class="dropdown-item" href="#">Traditional Dress</a></li>
-                                        <li><a class="dropdown-item" href="#">Indie Wear</a></li>
+                                        <li><a class="dropdown-item" href="/MenWear">MEN WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/WomenWear">WOMEN WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/KidsWear">KIDS WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/PartyWear">PARTY WEAR</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -65,7 +67,7 @@ const FashionStoreCard = () => {
                     <div className="card fetcard featurecard3">
                         <img src={Kid} className="card-img-top rotcard" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title">Kids Wear Store</h5>
+                            <h5 className="card-title">SPLASH STORE</h5>
                             <p className="card-text">
                                 In this store, coustmer can purchase all type of kid wear clothes.
                                 <br/>
@@ -78,9 +80,10 @@ const FashionStoreCard = () => {
                                         See Products
                                     </button>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">T-Shirts</a></li>
-                                        <li><a class="dropdown-item" href="#">Trousers</a></li>
-                                        <li><a class="dropdown-item" href="#">Skirts</a></li>
+                                        <li><a class="dropdown-item" href="/MenWear">MEN WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/WomenWear">WOMEN WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/KidsWear">KIDS WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/PartyWear">PARTY WEAR</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -91,7 +94,7 @@ const FashionStoreCard = () => {
                     <div className="card fetcard featurecard4">
                         <img src={Party} className="card-img-top rotcard" alt="..." />
                         <div className="card-body">
-                            <h5 className="card-title">Party Wear Store</h5>
+                            <h5 className="card-title">MEGA CLOTH STORE</h5>
                             <p className="card-text">
                                 In this store, coustmer can purchase all type of party wear clothes.
                                 <br/>
@@ -100,14 +103,14 @@ const FashionStoreCard = () => {
                             <a type="button" className="location-btn-4" href='/' target='_blank'>Go To Location</a>
                             <div class=" d-md-flex justify-content-md-end">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-dark btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button type="button" class="btn btn-success btn-sm fashionstorebutton dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                         See Products
                                     </button>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Sherwani</a></li>
-                                        <li><a class="dropdown-item" href="#">Kurta Pajama</a></li>
-                                        <li><a class="dropdown-item" href="#">Saree</a></li>
-                                        <li><a class="dropdown-item" href="#">Bridal Wear</a></li>
+                                        <li><a class="dropdown-item" href="/MenWear">MEN WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/WomenWear">WOMEN WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/KidsWear">KIDS WEAR</a></li>
+                                        <li><a class="dropdown-item" href="/PartyWear">PARTY WEAR</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -1,6 +1,3 @@
-
-
-
 import Banner from '../Components/Banner'
 
 

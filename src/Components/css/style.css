@@ -115,30 +115,22 @@
   text-transform: uppercase;
 }
 
-.location-btn-1
-{
-  background-color: #E9E0CE;
-}
-
-.location-btn-2
-{
-  background-color: #f3c0cc;
-}
-
-.location-btn-3
+.location-btn-1,.location-btn-2,.location-btn-3, .location-btn-4
 {
   background-color: #9cc0fa;
-}
-
-.location-btn-4
-{
-  background-color: #F4F1F3;
 }
 
 @media (max-width:700px) {
 .fashionstorebutton
 {
-  margin-top: 10px;
+  margin-left: 11em;
+  margin-bottom: 5em;
+}
+
+.location-btn-1, .location-btn-2, .location-btn-3,.location-btn-4
+{
+  width: 10em;
+  margin-left: -1em;
 }
 }
 /* Fashion Store Card End */
