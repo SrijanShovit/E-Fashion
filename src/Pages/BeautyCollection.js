@@ -3,15 +3,19 @@ import { Row , Col,Container} from 'react-bootstrap';
 import '../Components/css/style.css';
 import products from '../products';
 import Product from '../Components/Product';
+import Header from '../Components/Navbar';
+import Footer from '../Components/Footer';
+
+const headingStyle = {
+    marginTop:'1em',
+    textAlign: 'center',
+}
 
 export const MenBeauty = () => {
-    const headingStyle = {
-        
-        textAlign: 'center',
-    }
+
     return(
         <>
-            
+            <Header/>
             <Container>
             <h3 style={headingStyle}>Men Beauty Collection</h3>
             <Row>
@@ -40,20 +44,17 @@ export const MenBeauty = () => {
             </Row>
 
             </Container>
-            
+            <Footer/>
 
         </>
     )
 }
 
 export const WomenBeauty = () => {
-    const headingStyle = {
-        
-        textAlign: 'center',
-    }
+
     return(
         <>
-            
+            <Header/>
             <Container>
             <h3 style={headingStyle}>Women Beauty Collection</h3>
             <Row>
@@ -82,20 +83,17 @@ export const WomenBeauty = () => {
             </Row>
 
             </Container>
-            
+            <Footer/>
 
         </>
     )
 }
 
 export const IndianBeauty = () => {
-    const headingStyle = {
-        
-        textAlign: 'center',
-    }
+
     return(
         <>
-            
+            <Header/>
             <Container>
             <h3 style={headingStyle}>Indian Beauty Collection</h3>
             <Row>
@@ -124,20 +122,17 @@ export const IndianBeauty = () => {
             </Row>
 
             </Container>
-            
+            <Footer/>
 
         </>
     )
 }
 
 export const MordernBeauty = () => {
-    const headingStyle = {
-        
-        textAlign: 'center',
-    }
+
     return(
         <>
-            
+            <Header/>
             <Container>
             <h3 style={headingStyle}>Mordern Beauty Collection</h3>
             <Row>
@@ -166,7 +161,7 @@ export const MordernBeauty = () => {
             </Row>
 
             </Container>
-            
+            <Footer/>
 
         </>
     )

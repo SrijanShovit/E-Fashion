@@ -20,9 +20,9 @@ const Footer = () => {
               <hr className="bg-success mb-1 mt-0 d-inline-block mx-auto" />
               <ul >
                 <li className="my-2"><a href="/fashion">Fashion Product</a></li>
-                <li className="my-2"><a href="/">Beauty Product</a></li>
-                <li className="my-2"> <a href="/">Handicraft Product</a></li>
-                <li className="my-2"> <a href="/">Fashion Wear</a></li>
+                <li className="my-2"><a href="/beauty">Beauty Product</a></li>
+                <li className="my-2"> <a href="/sighandicraft">Handicraft Product</a></li>
+                <li className="my-2"> <a href="/fwearcollection">Fashion Wear</a></li>
               </ul>
           </Col>
           <Col sm>
@@ -30,8 +30,8 @@ const Footer = () => {
               <hr className="bg-success mb-1 mt-0 d-inline-block mx-auto"  />
               <ul>
                 <li className="my-2"><a href="/fashion">City Fashion Store</a></li>
-                <li className="my-2"><a href="/">City Beauty Store</a></li>
-                <li className="my-2"><a href="/">Signature Handicraft</a></li>
+                <li className="my-2"><a href="/beauty">City Beauty Store</a></li>
+                <li className="my-2"><a href="/sighandicraft">Signature Handicraft</a></li>
                 
               </ul>
           </Col>

@@ -16,6 +16,7 @@ import {
 import { City_Fashion } from './Pages/City Fashion'
 import LocalStore from './Pages/LocalStore'
 import { City_Beauty } from './Pages/City Beauty';
+import { Details } from './Pages/Details';
 
 const App = () => {
  
@@ -41,6 +42,8 @@ const App = () => {
         <Route path='/WomenBeauty' component={WomenBeauty}/>
         <Route path='/IndianBeauty' component={IndianBeauty}/>
         <Route path='/MordernBeauty' component={MordernBeauty}/>
+
+        <Route path="/Details" component={Details}/>
       </Switch>
     </Router>
     </>
