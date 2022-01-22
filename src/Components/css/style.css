@@ -138,3 +138,94 @@
 .view{
   margin-left: 80%;
 }
+
+/* <!------------------------------Details Card Start-------------------------------!> */
+.details
+{
+  max-width: 65em;
+  margin-top: 4em;
+  margin-left: 10em;
+  height: 30em;
+}
+
+.details_image
+{
+  margin-left: 2em;
+  width: 23em;
+  height: 29em;
+  padding-top: 0.5em;
+}
+
+.details_body
+{
+  margin-left: 33em;
+  margin-top: -29em;
+  background-color: #2D2E32;
+  height: 29.9em;
+}
+
+.details-title
+{
+  color: #BB49AE;
+  padding-bottom: 6px;
+  padding-top: 20px;
+}
+
+.details-title-1
+{
+  color: #D82578;
+}
+
+.details-price
+{
+  color: red;
+  font-size: xx-large;
+  padding-top: 8px;
+}
+
+.details-button, .details-button-1
+{
+  display: flex;
+  width: 25em;
+  height: 2em;
+  justify-content: center;
+  border-style: none;
+  margin-left: 2em;
+  padding-top: 4px;
+}
+
+.details-button-1
+{
+  background-color: #D82578;
+}
+
+@media (max-width:700px) {
+  .details
+  {
+    max-width: 20em;
+    margin-left: 1.7em;
+    height: 64em;
+  }
+
+  .details_image
+  {
+    width: 18em;
+    margin-left: 1em;
+    margin-right: 1em
+  }
+
+  .details_body
+  {
+    margin-left: 0em;
+    margin-top: 3em;
+    height: 32em;
+  }
+
+  .details-button, .details-button-1
+  {
+    width: 19em;
+    margin-left: -8px;
+  }
+}
+
+/* <!------------------------------Details Card End---------------------------------!> */

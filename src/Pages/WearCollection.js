@@ -3,15 +3,20 @@ import { Row , Col,Container} from 'react-bootstrap';
 import '../Components/css/style.css';
 import products from '../products';
 import Product from '../Components/Product';
+import Header from '../Components/Navbar';
+import Footer from '../Components/Footer';
+
+const headingStyle = {
+        
+    textAlign: 'center',
+    marginTop:'1em',
+}
 
 export const MenWear = () => {
-    const headingStyle = {
-        
-        textAlign: 'center',
-    }
+
     return(
         <>
-            
+            <Header/>
             <Container>
             <h3 style={headingStyle}>Men Wear Collection</h3>
             <Row>
@@ -40,20 +45,17 @@ export const MenWear = () => {
             </Row>
 
             </Container>
-            
+            <Footer/>
 
         </>
     )
 }
 
 export const WomenWear = () => {
-    const headingStyle = {
-        
-        textAlign: 'center',
-    }
+
     return(
         <>
-            
+            <Header/>
             <Container>
             <h3 style={headingStyle}>Women Wear Collection</h3>
             <Row>
@@ -82,20 +84,17 @@ export const WomenWear = () => {
             </Row>
 
             </Container>
-            
+            <Footer/>
 
         </>
     )
 }
 
 export const KidsWear = () => {
-    const headingStyle = {
-        
-        textAlign: 'center',
-    }
+
     return(
         <>
-            
+            <Header/>
             <Container>
             <h3 style={headingStyle}>Kids Wear Collection</h3>
             <Row>
@@ -124,20 +123,17 @@ export const KidsWear = () => {
             </Row>
 
             </Container>
-            
+            <Footer/>
 
         </>
     )
 }
 
 export const PartyWear = () => {
-    const headingStyle = {
-        
-        textAlign: 'center',
-    }
+
     return(
         <>
-            
+            <Header/>
             <Container>
             <h3 style={headingStyle}>Party Wear Collection</h3>
             <Row>
@@ -166,7 +162,7 @@ export const PartyWear = () => {
             </Row>
 
             </Container>
-            
+            <Footer/>
 
         </>
     )
